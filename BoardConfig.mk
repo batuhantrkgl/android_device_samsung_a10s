@@ -125,5 +125,3 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibi
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := a10s
 
--include vendor/samsung/a10s/BoardConfigVendor.mk
--include vendor/samsung/suzuhime/BoardConfigVendor.mk
