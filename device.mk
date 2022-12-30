@@ -128,6 +128,3 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Inherit vendor
-$(call inherit-product, vendor/samsung/a10s/a10s-vendor.mk)
-$(call inherit-product, vendor/samsung/suzuhime/suzuhime-vendor.mk)
