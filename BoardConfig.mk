@@ -70,6 +70,9 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Symbols
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
+# Audio
+USE_XML_AUDIO_POLICY_CONF := 1
+
 # Network Routing
 TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE := true
 
